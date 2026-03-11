@@ -1,0 +1,30 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="256" cy="256" r="240" fill="#0d0d0d"/>
+  <g stroke="#ffffff" stroke-width="20" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Box 1 (Top Left) -->
+    <rect x="120" y="170" width="90" height="90"/>
+    <path d="M150 170 v30 M180 170 v30 M140 235 h35 M140 245 h20"/>
+    
+    <!-- Box 2 (Bottom Left) -->
+    <rect x="120" y="260" width="105" height="105"/>
+    <path d="M150 260 v35 M185 260 v35 M140 325 h45 M140 340 h25"/>
+    
+    <!-- Box 3 (Bottom Right) -->
+    <rect x="225" y="260" width="105" height="105"/>
+    <path d="M255 260 v35 M290 260 v35 M245 325 h45 M245 340 h25"/>
+
+    <!-- Gear Base (Top Right) -->
+    <circle cx="315" cy="215" r="45" />
+    
+    <!-- Gear Teeth -->
+    <path d="M315 130 v25 M315 275 v25 M230 215 h25 M375 215 h25" />
+    <path d="M255 155 l18 18 M355 255 l18 18 M255 275 l18 -18 M355 175 l18 -18" />
+    <path d="M285 140 l10 20 M335 140 l-10 20 M285 290 l10 -20 M335 290 l-10 -20" />
+    <path d="M240 185 l20 10 M240 235 l20 -10 M390 185 l-20 10 M390 235 l-20 -10" />
+
+    <!-- Connecting lines / outline of the gear core -->
+    <circle cx="315" cy="215" r="70" />
+  </g>
+  <!-- Overwrite lines where the gear meets the boxes to match the icon style -->
+  <path d="M215 215 h10 M225 170 v45" fill="none" stroke="#0d0d0d" stroke-width="25"/>
+</svg>
